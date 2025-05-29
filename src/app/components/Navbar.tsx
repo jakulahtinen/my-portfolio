@@ -100,6 +100,7 @@ export default function Navbar() {
                 <div className="mt-4">
                     <a
                         href="#contact"
+                        onClick={() => setIsOpen(false)}
                         className="block text-center border border-white px-6 py-2 rounded-full text-white hover:text-green-600 transition hover:border-green-600 font-semibold"
                     >
                         Contact
