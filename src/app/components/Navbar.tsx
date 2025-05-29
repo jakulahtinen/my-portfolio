@@ -86,7 +86,10 @@ export default function Navbar() {
 
                 {/* CV-button mobile */}
                 <div className="mt-4">
-                    <a href="#cv">
+                    <a
+                        href="/CV_Jaku_Lahtinen_ENG.pdf"
+                        download
+                    >
                         <button className="w-full bg-green-600 text-white px-6 py-2 ring-1 ring-green-600 rounded-full hover:bg-green-700 transition-colors duration-200 cursor-pointer">
                             Download CV
                         </button>
