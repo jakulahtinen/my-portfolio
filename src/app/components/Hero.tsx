@@ -3,13 +3,13 @@ export default function Hero() {
   return (
     <section 
     id="hero" 
-    className="flex flex-col items-center justify-centerpx-6 text-center bg-gray-100"
+    className="relative flex flex-col items-center justify-centerpx-6 text-center bg-gray-100 pt-4"
     data-aos="fade-up"
     >
       <img
-        src="\CV_kuva.jpg"
+        src="/CV_kuva.jpg"
         alt="Oma nimi"
-        className="pt-10 w-100 h-100 rounded-full mb-6 object-contain max-w-xs max-h-xs md:max-w-sm md:max-h-sm lg:max-w-md lg:max-h-md xl:max-w-lg xl:max-h-lg 2xl:max-w-xl 2xl:max-h-xl border-2-quarter border-gray-300 shadow-lg"
+        className="pt-15 mt-10 w-100 h-100 rounded-full mb-6 object-contain max-w-xs max-h-xs md:max-w-sm md:max-h-sm lg:max-w-md lg:max-h-md xl:max-w-lg xl:max-h-lg 2xl:max-w-xl 2xl:max-h-xl border-2-quarter border-gray-300 shadow-lg"
       />
       <h2 className="text-black text-3xl font-bold mb-4 underline">About Me</h2>
       <p className="max-w-xl text-gray-600 text-lg">
