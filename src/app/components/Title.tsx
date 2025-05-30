@@ -5,6 +5,7 @@ export default function Title() {
     <section 
       id="title" 
       className="relative flex justify-center text-center pt-22 pb-10"
+      data-aos="fade-up"
     >
       <div className="relative w-full max-w-6xl mx-auto h-80 md:h-96 rounded-b-3xl overflow-hidden">
         <Image
