@@ -17,7 +17,7 @@ export default function Navbar() {
 
     return (
         <nav className="fixed top-0 left-0 w-full z-50  backdrop-blur-md bg-black/75 px-5 py-3 text-sm font-semibold transition-colors duration-300 hover:bg-accent-600">
-            <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between text-xl">
+            <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between text-xl text-white">
 
 
                 {/* Navigation left */}
