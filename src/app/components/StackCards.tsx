@@ -17,7 +17,7 @@ export default function Stack() {
         {
             img: "/techicons/nextjs.png",
             label: "Next.js",
-            tooltip: "Currently learning",
+            tooltip: "1 Year+",
         },
         {
             img: "/techicons/css.png",
@@ -27,7 +27,7 @@ export default function Stack() {
         {
             img: "/techicons/tailwind.png",
             label: "Tailwind CSS",
-            tooltip: "Currently learning",
+            tooltip: "1 Year+",
         },
         {
             img: "/techicons/git.png",
@@ -35,9 +35,9 @@ export default function Stack() {
             tooltip: "2 years of experience",
         },
         {
-            img: "/techicons/postman.png",
-            label: "Postman",
-            tooltip: "Can use for API testing",
+            img: "/techicons/awsicon.png",
+            label: "AWS",
+            tooltip: "I have become familiar with many services",
         },
         {
             img: "/techicons/azure.png",

@@ -19,8 +19,8 @@ export default function DevCards() {
                   <span className="text-xl font-semibold text-black">Front-end</span>
               </div>
               <p className="text-gray-700">
-                  My main skills in Front-end development are React Framework, TypeScript and CSS.
-                  Currently also learning Next.js and Tailwind CSS.
+                  My main skills in Front-end development are with React, Nextjs, TypeScript and CSS / Tailwind CSS.
+                  I like building & designing clean and modern UIs.
               </p>
             </div>
             
@@ -34,7 +34,7 @@ export default function DevCards() {
                 />
                 <span className="text-xl font-semibold text-black">Back-end</span>
             </div>
-            <p className="text-gray-700">My main skills in Back-end development are C#, .NET, ASP.NET Core and Entity Framework.</p>
+            <p className="text-gray-700">My main skills in Back-end development are C#, .NET, ASP.NET Core, Entity Framework and working with API's.</p>
           </div>
 
             {/* Card 3 */}
@@ -47,7 +47,7 @@ export default function DevCards() {
                 />
                 <span className="text-xl font-semibold text-black">Databases</span>
             </div>
-            <p className="text-gray-700">My main skills in Database area are SQL and lately PostgreSQL.</p>
+            <p className="text-gray-700">My main skills in Database area are SQL and PostgreSQL.</p>
           </div>
 
             {/* Card 4 */}
@@ -60,7 +60,7 @@ export default function DevCards() {
                     />
                     <span className="text-xl font-semibold text-black">CI/CD</span>
                 </div>
-            <p className="text-gray-700">I have some experience with CI/CD-pipelines in GitHub Actions.</p>
+            <p className="text-gray-700">I have some experience with CI/CD-pipelines in GitHub Actions and experience writing unit tests and testing.</p>
           </div>
 
             {/* Card 5 */}
@@ -73,7 +73,7 @@ export default function DevCards() {
                     />
                     <span className="text-xl font-semibold text-black">Version Control</span>
                 </div>
-            <p className="text-gray-700">I have experience with Git and GitHub and I can work with them fluently.</p>
+            <p className="text-gray-700">I am confident working with Git and GitHub and I can work with them fluently.</p>
           </div>
 
             {/* Card 6 */}
@@ -86,7 +86,7 @@ export default function DevCards() {
                     />
                     <span className="text-xl font-semibold text-black">Cloud</span>
                 </div>
-            <p className="text-gray-700">I have some experience with Azure App Service, Azure Key Vault and Azure SQL-Server.</p>
+            <p className="text-gray-700">I have some experience with Azure services, AWS services, and Vercel.</p>
           </div>
         </div>
       </div>

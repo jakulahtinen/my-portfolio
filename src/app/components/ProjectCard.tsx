@@ -16,6 +16,38 @@ export default function ProjectCard() {
             <h2 className="text-3xl font-bold text-center mb-10 text-black underline">Latest Projects</h2>
             <div className="max-w-6xl mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+
+                    {/* Project Card 1 */}
+                    <div className="relative bg-gray-100 p-6 rounded-lg shadow-md hover:-translate-y-1 transition-transform duration-300">
+                        <h3 className="text-xl font-semibold text-black">e-Kit</h3>
+                        <img
+                            src="/projectassets/eKit.png"
+                            alt="xsahko project thumbnail"
+                            className="rounded-lg w-full h-85 md:h-105 lg:h-87 object-cover mt-4"
+                        />
+                        <p className="text-gray-700 mt-4">
+                                Developed an EV charging simulation system that models real-time
+                                charging behaviour and visualizes live metrics through an interactive tablet UI. The system also
+                                controls LED strips to simulate charging effects. This solution was showcased at Teknologia 25.
+                        </p>
+                        <p className="text-gray-700 mt-8">
+                            <b>Technologies:</b>
+                        </p>
+                        <div className="flex flex-wrap gap-2 mt-2 text-gray-700">
+                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-blue-400 bg-white font-semibold">Next.js</span>
+                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-green-400 bg-white font-semibold">TypeScript</span>
+                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-teal-400 bg-white font-semibold">GIT</span>
+                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-yellow-400 bg-white font-semibold">GitHub</span>
+                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-cyan-400 bg-white font-semibold">API</span>
+                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-quartz-400 bg-white font-semibold">TailwindCSS</span>
+                        </div>
+                    </div>
+
+
+
+
+
+
                     {/* Project Card 1 */}
                     <div className="relative bg-gray-100 p-6 rounded-lg shadow-md hover:-translate-y-1 transition-transform duration-300">
                         <h3 className="text-xl font-semibold text-black">X-Sähkö</h3>

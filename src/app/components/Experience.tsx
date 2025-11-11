@@ -52,8 +52,21 @@ export default function Experience() {
              <div className="relative">
                     <div className="mb-8">
                         <p className="font-semibold text-black">Software Engineer</p>
-                        <p className="text-sm text-gray-600">HevTec Oy | June 2025 - Present</p>
-                        <p className="text-sm text-black mt-3">Software engineering and designing tasks.</p>
+                        <p className="text-sm text-gray-600">Hevtec Oy | June 2025 - Present</p>
+                        <p className="text-sm text-black mt-3">
+                            My main focus at Hevtec Oy is on web development and integrating embedded systems such as
+                            Codesys -based displays into modern interfaces built with Next.js and React. 
+                        </p>
+                        <p className="text-sm text-black mt-3">
+                            I also participate to
+                            development of Codesys libraries and function blocks based on technical documentation,
+                            including I/O mapping and CAN message handling. Also working and testing physical components for customers.
+                        </p>
+                        <p className="text-sm text-black mt-3">
+                        In my latest project, I developed an EV charging simulation system that models real-time
+                        charging behaviour and visualizes live metrics through an interactive tablet UI. The system also
+                        controls LED strips to simulate charging effects. This solution was showcased at Teknologia 25.
+                        </p>
                     </div>
 
 
@@ -70,11 +83,6 @@ export default function Experience() {
                             Collaborated on a project aimed at developing an application that calculates user’s
                             electricity usage and consumption prices based on consumption files to provide the best
                             options.
-                        </p>
-                        <p className="text-sm text-black mt-3l">
-                            Implemented features allowing users to calculate also directive electricity price
-                            costs. Utilized a variety of technologies and methodologies to ensure the software’s
-                            maintainability and efficiency.
                         </p>
                         <p className="text-sm text-black mt-3">
                             My main responsibilities in the development of the application were building the estimated
