@@ -17,7 +17,7 @@ export default function Stack() {
         {
             img: "/techicons/nextjs.png",
             label: "Next.js",
-            tooltip: "1 Year+",
+            tooltip: "2 Years+",
         },
         {
             img: "/techicons/css.png",
@@ -27,7 +27,7 @@ export default function Stack() {
         {
             img: "/techicons/tailwind.png",
             label: "Tailwind CSS",
-            tooltip: "1 Year+",
+            tooltip: "2 Years+",
         },
         {
             img: "/techicons/git.png",

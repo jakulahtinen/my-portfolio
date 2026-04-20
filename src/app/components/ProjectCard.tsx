@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from "react";
+import Link from "next/link";
 
 export default function ProjectCard() {
 
@@ -49,13 +50,15 @@ export default function ProjectCard() {
 
 
                     {/* Project Card 1 */}
-                    <div className="relative bg-gray-100 p-6 rounded-lg shadow-md hover:-translate-y-1 transition-transform duration-300">
+                    <div className="relative bg-gray-100 p-6 rounded-lg shadow-md">
                         <h3 className="text-xl font-semibold text-black">X-Sähkö</h3>
-                        <img
-                            src="/projectassets/xsahko-front.png"
-                            alt="xsahko project thumbnail"
-                            className="rounded-lg w-full h-85 md:h-105 lg:h-125 object-cover mt-4"
-                        />
+                        <Link href="https://xsahko.xamk.fi/">
+                            <img
+                                src="/projectassets/xsahko-front.png"
+                                alt="xsahko project thumbnail"
+                                className="rounded-lg w-full h-85 md:h-105 lg:h-125 object-cover mt-4 hover:scale-102 transition-transform duration-600 cursor-pointer"
+                            />
+                        </Link>
                         <p className="text-gray-700 mt-4">
                             Collaborated on a project aimed at developing an application that calculates user's electricity usage and consumption prices based on consumption files to provide the best options.
                             Implemented features allowing users to calculate also directive electricity price costs.
@@ -109,13 +112,15 @@ export default function ProjectCard() {
                     </div>
 
                     {/* Project Card 2 */}
-                    <div className="relative bg-gray-100 p-6 rounded-lg shadow-md hover:-translate-y-1 transition-transform duration-300">
+                    <div className="relative bg-gray-100 p-6 rounded-lg shadow-md">
                         <h3 className="text-xl font-semibold text-black">Hirvensalmen Autourheilijat</h3>
-                        <img
-                        src="/projectassets/hau-front.png"
-                        alt="xsahko project thumbnail"
-                        className="rounded-lg w-full h-85 md:h-105 lg:h-125 object-cover mt-4"
-                        />
+                        <Link href="https://www.hirvensalmenautourheilijat.fi/">
+                            <img
+                            src="/projectassets/hauproject.png"
+                            alt="Hirvensalmen Autourheilijat project thumbnail"
+                            className="rounded-lg w-full h-85 md:h-105 lg:h-125 object-cover mt-4 hover:scale-102 transition-transform duration-600 cursor-pointer"
+                            />
+                        </Link>
                         <p className="text-gray-700 mt-4">
                             New website of a Hirvensalmen Autourheilijat motorsport club.
                             The site is being rebuilt to replace an outdated WordPress site, providing a modern and user-friendly experience for both visitors and administrators.
@@ -125,48 +130,17 @@ export default function ProjectCard() {
                             <b>Technologies:</b>
                         </p>
                         <div className="flex flex-wrap gap-2 mt-2 text-gray-700">
-                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-blue-400 bg-white font-semibold">C#</span>
-                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-green-400 bg-white font-semibold">.NET</span>
-                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-purple-400 bg-white font-semibold">React</span>
-                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-green-400 bg-white font-semibold">TypeScript</span>
-                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-cyan-400 bg-white font-semibold">JWT</span>
-                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-quartz-400 bg-white font-semibold">EF Core</span>
+                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-purple-400 bg-white font-semibold">NextJS</span>
+                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-green-400 bg-white font-semibold">JavaScript</span>
                             <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-red-400 bg-white font-semibold">CI/CD</span>
                             <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-teal-400 bg-white font-semibold">GIT</span>
                             <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-yellow-400 bg-white font-semibold">GitHub</span>
-                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-indigo-400 bg-white font-semibold">API</span>
-                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-lime-400 bg-white font-semibold">ASP.NET</span>
-                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-navy-400 bg-white font-semibold">CSS</span>
-                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-violet-400 bg-white font-semibold">PostgreSQL</span>
+                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-lime-400 bg-white font-semibold">CI/CD</span>
+                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-navy-400 bg-white font-semibold">TailwindCSS</span>
+                            <span className="inline-block px-2 py-0.5 rounded-full ring-2 ring-violet-400 bg-white font-semibold">Vercel</span>
                         </div>
                         
-                        <a href="#" className="text-blue-500 mt-14 inline-block">View Project</a>
-                        <img
-                        src="/icons/githubblack.png"
-                        alt=""
-                        className="w-8 h-8 inline-block ml-4 hover:scale-110 transition-transform duration-300 cursor-pointer"
-                        onClick={() => setShowHauMenu(showHauMenu === 0 ? null : 0)}
-                        />
-                        {showHauMenu === 0 && (
-                            <div className="absolute right-4 bottom-4 bg-white shadow-lg rounded-lg p-4">
-                                <a
-                                    href="https://github.com/jakulahtinen/hau-frontend"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="block px-4 py-2 hover:bg-gray-100 rounded text-black"
-                                >
-                                    Frontend
-                                </a>
-                                <a
-                                    href="https://github.com/jakulahtinen/hau-backend"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="block px-4 py-2 hover:bg-gray-100 rounded text-black"
-                                >
-                                    Backend
-                                </a>
-                            </div>
-                        )}
+                        <a href="https://www.hirvensalmenautourheilijat.fi/" className="text-blue-500 mt-14 inline-block">View Project</a>
                     </div>
                 </div>
             </div>

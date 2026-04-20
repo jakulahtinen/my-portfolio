@@ -16,7 +16,7 @@ export default function Hero() {
       <h3 className="text-gray-600 mt-4 text-2xl">Hi, I’m Jaku</h3>
       <h2 className="text-black text-3xl font-bold mb-4 mt-4 underline">About Me</h2>
       <p className="max-w-2xl text-gray-600 text-lg">
-        Hello! I am Jaku, Software Engineer currently working at <strong>Hevtec Oy</strong>. My main passion lies in web development, especially using technologies 
+        Hello! I am Jaku, a Software Developer starting as a Test Engineer role in <strong>Mipro Oy</strong> at May 2026. My main passion lies in web development, especially using technologies 
           like <strong>Next.js</strong>, <strong>.NET</strong>, and <strong>C#</strong>
       </p>
         <p className="max-w-2xl text-gray-600 text-lg mt-2">
@@ -26,7 +26,7 @@ export default function Hero() {
         In my freetime, i enjoy 🏕️camping, 🛥️boating, 🎸playing guitar,🏋🏼going gym, 📖reading books and diving into 🎮video games.
         </p>
         <p className="max-w-2xl text-gray-600 text-lg mt-4 pb-10">
-        📍Helsinki, Finland
+        📍Mikkeli, Finland
         </p>
     </section>
   );

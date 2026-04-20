@@ -51,8 +51,15 @@ export default function Experience() {
              </div>
              <div className="relative">
                     <div className="mb-8">
+                        <p className="font-semibold text-black">Test Engineer</p>
+                        <p className="text-sm text-gray-600">Mipro Oy | May 2025 - Present</p>
+                        <p className="text-sm text-black mt-3">
+                            Starting soon!
+                        </p>
+                    </div>
+                    <div className="mb-8">
                         <p className="font-semibold text-black">Software Engineer</p>
-                        <p className="text-sm text-gray-600">Hevtec Oy | June 2025 - Present</p>
+                        <p className="text-sm text-gray-600">Hevtec Oy | June 2025 - May 2026</p>
                         <p className="text-sm text-black mt-3">
                             My main focus at Hevtec Oy is on web development and integrating embedded systems such as
                             Codesys -based displays into modern interfaces built with Next.js and React. 
@@ -98,7 +105,7 @@ export default function Experience() {
                             I was a machine operator at Mölnlycke Health Care Oy, where my duties included the duties of a machine operator, maintenance and driving of production
                             machines and orientation of new employees. Product quality control.
                         </p>
-                        <div className="absolute right-[-20px] top-107 w-3 h-3 bg-black rounded-full z-10"></div>
+                        <div className="absolute right-[-20px] top-115 w-3 h-3 bg-black rounded-full z-10"></div>
                     </div>
                 </div>
           </div>
